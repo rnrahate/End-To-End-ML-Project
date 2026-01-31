@@ -1,0 +1,47 @@
+# Virtual environment
+envML/
+
+# Notebooks
+notebook/
+
+# Logs
+logs/
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Build artifacts (if not needed in image)
+# artifacts/  # Uncomment if you want to exclude, but models are needed
+
+# Test files
+test.csv
+# train.csv  # Uncomment if not needed
+
+# Documentation
+README.md
+*.md
+
+# Other
+catboost_info/
+ml_project.egg-info/

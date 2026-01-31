@@ -76,6 +76,11 @@
         </div>
     </form>
     </div>
+    {% if error %}
+    <h2 style="color: red;">Error: {{ error }}</h2>
+    {% endif %}
+    {% if results %}
     <h2>Prediction Results: {{ results }}</h2>
+    {% endif %}
 </body>
 </html>
