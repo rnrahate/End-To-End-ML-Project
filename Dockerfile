@@ -1,10 +1,6 @@
 # Use the official Python image from the Docker Hub
 FROM python:3.10-slim
 
-# 🔹 REQUIRED: install git for pip git+ dependencies
-RUN apt-get update && apt-get install -y git \
-    && rm -rf /var/lib/apt/lists/*
-
 # Set the working directory in the container
 WORKDIR /app
 
